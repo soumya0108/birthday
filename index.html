@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" width="device-width, initial-scale=1.0">
+        <title>Hujur ji</title>
+        <link rel="stylesheet" href="style.css">
+        <script>
+            const audio = new Audio();
+            audio.src = "AudioCutter_Bardali - Sushant KC, Ft. Indrakala Rai(Atozsong.in).mp3";
+            function showdiv(){
+                document.getElementById("divhide").style.display="none";
+                document.getElementById("divhide1").style.display="grid";
+            }
+            setTimeout("showdiv()",1999);
+            function showdiv1(){
+                document.getElementById("divhide1").style.display="none";
+                document.getElementById("divhide2").style.display="grid";
+            }
+            setTimeout("showdiv1()",3999);
+            function showdiv2(){
+                document.getElementById("divhide2").style.display="none";
+                document.getElementById("divhide3").style.display="grid";
+            }
+            setTimeout("showdiv2()",5999);
+            function swiitch(){
+                document.getElementById("message").style.display="none";
+                document.getElementById("divhide4").style.display="flex";
+            }
+            function showdiv3(){
+                document.getElementById("divhide4").style.display="none";
+                document.getElementById("videop").style.display="none";
+                document.getElementById("main").style.display="flex";
+            }
+            function lightup(){
+                document.getElementById("main").style.background="white";
+                document.getElementById("light-btn").style.display="none";
+                document.getElementById("music-btn").style.display="flex";
+            }
+            function musicc(){
+                document.getElementById("music-btn").style.display="none";
+                document.getElementById("deco-btn").style.display="flex";
+            }
+            function decorup(){
+                document.getElementById("main").style.display="none";
+                document.getElementById("banner").style.display="flex";
+                document.getElementById("ballon-btn").style.display="flex";
+            }
+            function flytheballon(){
+                document.getElementById("ballon-btn").style.display="none";
+                document.getElementById("cake-btn").style.display="flex";
+                document.getElementById("ballon").style.display="flex";
+                document.getElementById("ballon1").style.display="flex";
+                document.getElementById("ballon2").style.display="flex";
+                document.getElementById("ballon3").style.display="flex";
+                document.getElementById("ballon4").style.display="flex";
+                document.getElementById("ballon5").style.display="flex";
+                document.getElementById("ballon6").style.display="flex";
+                document.getElementById("ballon7").style.display="flex";
+                document.getElementById("ballon8").style.display="flex";
+                document.getElementById("ballon9").style.display="flex";
+            }
+            function cutcake(){
+                document.getElementById("cake-btn").style.display="none";
+                document.getElementById("para-btn").style.display="flex";
+                document.getElementById("cake").style.display="flex";
+            }
+            function lastmessage(){
+                document.getElementById("para-btn").style.display="none";
+                document.getElementById("banner").style.display="none";
+                document.getElementById("cake").style.display="none";
+                document.getElementById("ballon").style.display="none";
+                document.getElementById("ballon1").style.display="none";
+                document.getElementById("ballon2").style.display="none";
+                document.getElementById("ballon3").style.display="none";
+                document.getElementById("ballon4").style.display="none";
+                document.getElementById("ballon5").style.display="none";
+                document.getElementById("ballon6").style.display="none";
+                document.getElementById("ballon7").style.display="none";
+                document.getElementById("ballon8").style.display="none";
+                document.getElementById("ballon9").style.display="none";
+                document.getElementById("last").style.display="flex";
+            }
+        </script>
+    </head>
+    <body>
+        <div class="last" id="last">
+            <div class="last-m">
+                <h1 class="headi"><b>"Happy Birthday My Preety Man❤️"</b></h1><br>
+                <p class="gity">Wanted to wish you the very best but you already have me I LOVE YOU SO MUCH BABE.
+                    
+                    You're another year older, another year wiser, and another year more beautiful. I wish I could celebrate this special day of yours with you. Although I might not be there physically, but, if you listen to your heart, just know I'm there.
+                    
+                    I hope you have a great day, and I wish that mahadev blesses you with good luck, happiness, good health, and success in your every walk of your life.
+                    
+                    Thank you for being my boyfriend and life partner all at once... thank you for being such a wonderful part of my life
+                    
+                    you make my life brighter just by being in it, and I'm so proud of you, who you are, and what you're yet to become & what you want to achieve I m always with you 
+                    
+                    Come back soon and make me yours forever and let's stay together like this forever my hujur 
+                    
+                    "Mai timro 
+                      Timi mero "
+                    
+                          HAPPIEST BIRTHDAY MY GENTALMAN"<br>
+                </p><br><br>
+                <p class="rit">and on your special day, i wish you the happiest birthday</p>
+            </div>
+        </div>
+        <div class="main1" id="main1">
+            <button type="button" class="ballon-btn" onclick="flytheballon()" id="ballon-btn">Fly the ballons</button>
+            <button type="button" class="cake-btn" onclick="cutcake()" id="cake-btn">Let's cut the cake hujur Jii</button>
+            <button type="button" class="para-btn" onclick="lastmessage()" id="para-btn">Well, I have a message for you Sundari Jii</button>
+            <img class="banner" id="banner" src="banner.png" alt="">
+            <div class="ballon-box">
+                <div class="ballon" id="ballon"></div>
+                <div class="ballon" id="ballon1"></div>
+                <div class="ballon" id="ballon2"></div>
+                <div class="ballon" id="ballon3"></div>
+                <div class="ballon" id="ballon4"></div>
+                <div class="ballon" id="ballon5"></div>
+                <div class="ballon" id="ballon6"></div>
+                <div class="ballon" id="ballon7"></div>
+                <div class="ballon" id="ballon8"></div>
+                <div class="ballon" id="ballon9"></div>
+            </div>
+            <img class="cake" id="cake" src="cake.png" alt="">
+        </div>
+        <div class="main" id="main">
+            <button type="button" class="ballon-btn" onclick="" id="ballon-btn">Fly the ballons</button>
+            <img class="banner" id="banner" src="image/banner.png" alt="">
+            <button type="button" class="light-btn" onclick="lightup()" id="light-btn">Lights On</button>
+            <button type="button" class="music-btn" onclick="audio.play(); musicc()" id="music-btn">Play Music</button>
+            <button type="button" class="deco-btn" onclick="decorup()" id="deco-btn">Decorate</button>
+        </div>
+        <video autoplay loop muted plays-inline class="videop" id="videop">
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="message" id="message">
+                <div class="star">
+                    <p>❤️</p>
+                </div>
+                <div class="textarea" id="divhide">
+                    <p>It's Your Special Day Yayee!</p>
+                </div>
+                <div class="textarea1" id="divhide1">
+                    <p>to make something special for you</p>
+                    <p class="tt1">are special to me!</p>
+                </div>
+                <div class="textarea2" id="divhide2">
+                    <p>Do you want to see what I made?</p>
+                </div>
+                <div class="textarea3" id="divhide3">
+                    <p>Do you want to see what i made?</p>
+                    <div class="btt"><button class="pink" type="button" onclick="swiitch()">Yes</button><button class="voilet" type="button">No</button></div>
+                </div>
+            </div>
+            <div class="textarea4" id="divhide4" onclick="showdiv3()">
+                <p>Have a look at it Poplu Jiii</p>
+            </div>
+        </div>
+        
+    </body>
+</html>
